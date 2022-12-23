@@ -1,0 +1,118 @@
+/* split banner */
+
+.split-banner .container-wide {
+          width: 100%;
+     }
+     .split-banner .container-wide > div {
+          position: relative;
+          height: 560px; 
+          width: 100%;
+          /* flex: 1; */
+     }
+
+     .split-banner > div img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+     }
+     
+     .split-banner .left {
+          flex: 6;
+     }
+          .split-banner .left .banner-textbox {
+               max-width: 500px;
+               position: absolute;
+               bottom: 6rem;
+               left: 4rem;
+          }
+
+     .split-banner .right {
+          display: none;
+     } 
+
+
+
+@media (min-width: 992px) {
+     .split-banner .right {
+          display: flex;
+          flex: 4;
+     }
+          .split-banner .right .banner-textbox {
+               position: absolute;
+               bottom: 6rem;
+               left: 4rem;
+          }
+}
+
+
+
+
+
+
+
+
+
+
+/* double banner */
+
+.double-banner {
+     display: none;
+}
+
+@media (min-width: 1600px) {
+
+.double-banner {
+    display: flex;
+}
+
+.double-banner .container-wide {
+     width: 100%;
+     gap: 2rem;
+}
+
+.double-banner .container-wide > div {
+     position: relative;
+     /* height: 350px; */
+     width: 100%;
+     flex: 1;
+}
+
+.double-banner > div img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+
+     .double-banner .left .banner-textbox {
+          position: absolute;
+          bottom: 6rem;
+          right: 4rem;
+          }
+
+     .double-banner .right .banner-textbox {
+          position: absolute;
+          bottom: 6rem;
+          left: 4rem;
+     }
+
+}
+
+/* single-banner */
+
+.single-banner .container {
+     width: 100%;
+     height: 350px;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     background-color: var(--fixxo-grey-1);
+}
+.single-banner .banner-textbox {
+     text-align: center;
+     color: var(--color-white);
+}
+     .banner-textbox p {
+          margin-top: 1rem;
+     }

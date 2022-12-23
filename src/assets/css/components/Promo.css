@@ -1,0 +1,13 @@
+.promo {
+     position: relative;     
+     top: 30vh;
+     text-align: center;
+}
+.promo h1 {
+     font-size: 200px;
+     font-weight: var(--font-w-regular);
+     color: var(--fixxo-theme);
+}
+.promo h2 {
+     font-weight: var(--font-w-regular);
+}

@@ -1,0 +1,125 @@
+/* hero */
+
+.hero-showcase {
+     display: none;
+}
+
+@media (min-width: 768px) {
+
+     .hero-showcase {
+          display: block;
+          background-color: #EAEAEA;
+     }
+
+     .hero-showcase .container-wide {
+          height: 100%;  
+          position: relative;
+          justify-content: space-between;
+          z-index: 1;
+     }
+
+     .hero-showcase .left {
+          position: relative;
+          top: 0;
+          left: 0;
+          margin-top: 1rem;
+
+     }
+          .hero-showcase .container-wide img {
+               max-width: 100vw;
+               height: 800px;
+          }
+
+
+     .hero-showcase .center {     
+          width: 350px;
+          top: 40%;
+          left: 400px;
+
+          display: block;
+          text-align: center;
+          position: absolute;
+
+          z-index: 3;
+     }
+
+     .hero-showcase .right {
+          display: none;
+     }
+}
+
+@media (min-width: 992px) {
+
+     .hero-showcase .container-wide img {
+          height: auto;
+     }
+
+     .hero-showcase .center {
+          width: 50vw;
+          left: 500px;
+     }
+}
+
+@media (min-width: 1600px) {
+
+     .hero-showcase {
+          background-color: var(--fixxo-grey-3); /* For browsers that do not support gradients */
+          /* background-image: linear-gradient(to right, var(--gradient-dark), var(--gradient-light)); */
+          background-image: linear-gradient(to right, #E2E2E2, #F8F8F8);
+     }
+
+     .hero-showcase .container-wide {
+          height: 100%;     
+          position: relative;
+          z-index: 1;
+     }
+     
+     .hero-showcase .left {
+          display: block;
+          position: relative;
+          top: 0;
+          left: 0;
+          z-index: 2;
+
+     }
+     
+     .hero-showcase .center {
+          /* display: block;
+          text-align: center;
+          position: absolute; */
+          width: 100vw;
+          top: 320px;
+          left: 50%;
+          transform: translateX(-50%);
+          /* z-index: 3; */
+     }     
+     
+     .hero-showcase .right {
+          /* box-shadow: -10px -10px 30px FFF; */
+          display: block;
+          position: relative;
+          top: 0;
+          right: 0;
+     }
+}
+
+
+
+.hero-showcase {
+     height: 100%;
+     padding-top: 80px;
+}
+
+.hero-showcase .center h1{
+     font-size: var(--size-65);
+     font-weight: var(--font-w-extrabold);
+}
+     .hero-showcase .center h1:first-child {
+          text-transform: uppercase;
+     }
+
+.hero-showcase .center p {
+     font-size: var(--size-20);
+     font-weight: var(--font-w-regular);
+     margin: 1rem 0 1rem 0;
+}

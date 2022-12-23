@@ -1,0 +1,213 @@
+
+/* card */
+
+.card {
+     border: none;
+     border-radius: 0;
+}
+
+.card-img {     
+     position: relative;
+     background-color: var(--fixxo-grey-3);
+     border-radius: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     z-index: 0; 
+}
+
+.card-img img {    
+     max-height: 200px; 
+     max-width: 100%;
+}
+
+
+.card-body {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;     
+     gap: 3px;
+} 
+
+
+.card-category {
+     display: flex;     
+     align-items: flex-start;
+     margin: 0;
+     padding-bottom: 3px;
+}
+
+.card-title {
+     display: flex;     
+     align-items: flex-start;
+     min-height: 40px;               
+     margin: 0;
+}
+
+.card-rating {
+     display: flex;     
+     align-items: flex-start;
+     color: #FF7373;
+     padding-bottom: 3px;
+}
+
+/* 
+.card-previous-price {
+     color: #BEBEBE;
+     font-weight: var(--font-w-regular);
+     text-decoration: line-through;
+} 
+*/
+
+.card-price {
+     display: flex;     
+     align-items: flex-start;
+     font-weight: var(--font-w-semibold);
+     color: var(--fixxo-dark);
+}
+
+
+
+/* vertical card */
+
+.vertical-card {
+     display: block;
+     height: 100%;
+     width: 100%;     
+     max-width: 400px;
+     border: none;
+     position: relative;
+     margin: auto;
+     padding: 1rem;
+}
+     .vertical-card .card-img {
+          height: 200px;
+          width: 100%;
+     }
+
+     .card .card-body {
+          width: 100%;
+          height: 150px;
+          background-color: #FFFFFF;          
+          position: relative;
+          bottom: 0;
+          left: 0;
+          z-index: 2;
+     }
+     .vertical-card .card-price {
+          padding-top: 3px   
+     }
+
+          /* .vertical-card .card-body span {
+               justify-content: center;
+          } */
+
+     .vertical-card .fixxo-button {
+          width: calc(100% - 34px);
+          border: none;
+          position: absolute;
+          left: 1px;      
+          bottom: 2px;
+          z-index: 1;
+          transition: 0.3s;
+          margin: 0 1rem 1rem 1rem;
+     }
+          .vertical-card:hover .fixxo-button {
+               bottom: 150px;
+          }
+               .vertical-card .fixxo-button:hover {
+                    transform: none;
+                    filter: none;
+                    background-color: var(--fixxo-dark);
+               }          
+
+     .vertical-card .card-overlay {
+          height: 150px;
+          width: calc(100% - 2rem);
+          position: absolute;
+          top: 200px;
+          left: 0;
+          
+          background-color: var(--fixxo-dark);
+          filter: opacity(40%);
+          
+          z-index: 1;
+          margin: 1rem;
+          transition: 0.3s;
+     }
+          .vertical-card:hover .card-overlay {
+               height: 150px;
+               top: 0;
+               left: 0;
+          }
+
+     .vertical-card .card-overlay-menu {
+          height: 140px;
+          width: 80px;
+          
+          position: absolute;
+          top: 210px;
+          right: 0;
+          z-index: 1;
+          
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          
+          list-style: none;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          margin-right: 20px;          
+          transition: 0.3s;
+     }
+          .vertical-card:hover .card-overlay-menu {
+               height: 150px;
+               top: 1rem;
+          }
+
+
+
+.horizontal-card  {
+     display: flex;
+     align-items: center;
+     height: 170px;
+     width: 100%;
+}
+     .horizontal-card h4 {
+          font-size: var(--size-16);    
+     }
+     .horizontal-card h5 {
+          padding-top: 1rem;    
+     }
+
+     .horizontal-card .card-img {
+          height: 100%;
+          width: 170px;          
+     }
+
+     .horizontal-card .card-body {         
+          height: 100%;
+          width: 170px; 
+          gap: 5px;
+          padding-left: 1rem;      
+     }
+          .horizontal-card .card-body h3 {
+               font-size: 1em;
+          }
+
+          .horizontal-card .card-body .card-title {
+               min-height: 2rem;               
+               margin: 0;
+          }
+
+     .horizontal-card .fixxo-button {
+          display: none;
+     }
+
+     .horizontal-card .card-overlay {
+          display: none;
+     }          
+
+     .card-overlay-menu {
+          display: none;
+     }

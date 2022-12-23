@@ -1,0 +1,75 @@
+.fixxo-button {
+     position: relative;
+
+     height: 50px;
+     width: 150px;    
+     border: none;
+     border-radius: 2px;
+
+     font-size: var(--size-16);
+     font-weight: var(--font-w-semibold);
+     text-transform: uppercase;
+     transition: 0.2s;
+
+     margin-top: 2rem;
+}
+
+     .fixxo-button::before {
+          content: "";
+          height: 15px;
+          width: 15px;
+          position: absolute;
+          top: 8px;
+          left: 8px;
+          border-top: 2px solid var(--color-white);
+          border-left: 2px solid var(--color-white);
+     }
+
+     .fixxo-button::after {
+          content: "";
+          height: 15px;
+          width: 15px;
+          position: absolute;
+          bottom: 8px;
+          right: 8px;
+          border-bottom: 2px solid var(--color-white);
+          border-right: 2px solid var(--color-white);
+     }
+
+     .fixxo-button:hover {
+          transform: scale(107%);
+          filter: brightness(103%);
+     }
+
+.button-theme {
+     background-color: var(--fixxo-theme);
+     color: var(--color-white);
+}
+     .button-theme ._NavLink {
+          color: var(--color-white);
+     }
+
+.button-dark {
+     background-color: var(--fixxo-dark);
+     color: var(--color-white);
+}
+     .button-dark ._NavLink {
+          color: var(--color-white);
+     }
+
+.button-light {
+     background-color: var(--color-white);
+     color: var(--fixxo-dark);
+}
+     .button-light::before {
+          border-top: 2px solid var(--fixxo-dark);
+          border-left: 2px solid var(--fixxo-dark);
+     }
+
+     .button-light::after {
+          border-bottom: 2px solid var(--fixxo-dark);
+          border-right: 2px solid var(--fixxo-dark);
+     }
+     .button-light ._NavLink {
+          color: var(--fixxo-dark);
+     }

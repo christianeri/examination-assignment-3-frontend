@@ -1,0 +1,36 @@
+/* inforcard */
+
+.infocard {
+     height: 230px;
+     width: 100%;
+     display: flex;
+}
+
+.infocard .left {
+     flex: 1;
+     height: 100%;
+     background-color: var(--color-white);
+     position: relative;
+}
+     .infocard .left h4 {
+          max-width: fit-content;
+          font-weight: var(--font-w-medium);
+          color: var(--fixxo-dark);
+          border-bottom: 2px solid var(--fixxo-dark);
+          transition: 0.3s;
+     }
+          .infocard .left .infocard-textbox {
+               position: absolute;
+               left: 2rem;
+               bottom: 5rem;
+          }
+               .infocard-textbox h4:hover {
+                    color: var(--fixxo-theme);
+                    border-bottom: 2px solid var(--fixxo-theme);
+               }
+
+.infocard .right {
+     flex: 1;
+     height: 100%;
+     background-color: var(--fixxo-grey-2);
+}

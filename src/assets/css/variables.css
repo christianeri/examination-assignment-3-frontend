@@ -1,0 +1,38 @@
+:root {
+     --fixxo-theme: #FF7373;
+     --fixxo-dark: #23262A;
+     --fixxo-grey-1: #616365;
+     --fixxo-grey-2: #BBBBBB;
+     --fixxo-grey-3: #F6F6F6;
+     --fixxo-purplegray: #CAC0BE;
+     --color-white: #FFFFFF;
+
+     --gradient-dark: #E6E6E6;
+     --gradient-light: #F5F5F5;
+
+     --color-facebook: #3B5998;
+     --color-google: #4285F4;
+
+     --font-poppins:'Poppins', sans-serif;
+
+     --font-w-regular: 400;
+     --font-w-medium: 500;
+     --font-w-semibold: 600;
+     --font-w-bold: 700;
+     --font-w-extrabold: 800; 
+
+     --size-13: 0.8rem;
+     --size-14: 0.9rem;
+     --size-16: 1rem;
+     --size-18: 1.13rem;
+     --size-20: 1.25rem;
+     --size-35: 2.2rem;
+     --size-45: 2.8rem;
+     --size-65: 4rem;
+     
+     --border-radius-small: 8px;
+     --border-radius-medium: 25px;
+     --border-radius-rounded: 50%;
+
+     --wsxga: 1680px;
+}

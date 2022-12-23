@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.002" height="26.251" viewBox="0 0 30.002 26.251">
+  <g id="credit-card_1_" data-name="credit-card (1)" transform="translate(0 -32.004)">
+    <g id="Group_20" data-name="Group 20" transform="translate(0 37.629)">
+      <g id="Group_19" data-name="Group 19">
+        <path id="Path_12" data-name="Path 12" d="M29.064,139.247a.938.938,0,0,0-.938.938v6.563H1.875V135.5H12.188a.938.938,0,1,0,0-1.875H1.875v-3.75H12.188a.938.938,0,0,0,0-1.875H1.875A1.876,1.876,0,0,0,0,129.871v16.876a1.876,1.876,0,0,0,1.875,1.875H28.127A1.876,1.876,0,0,0,30,146.747v-6.563A.938.938,0,0,0,29.064,139.247Z" transform="translate(0 -127.996)"/>
+      </g>
+    </g>
+    <g id="Group_22" data-name="Group 22" transform="translate(3.75 48.88)">
+      <g id="Group_21" data-name="Group 21" transform="translate(0 0)">
+        <path id="Path_13" data-name="Path 13" d="M68.688,320h-3.75a.938.938,0,0,0,0,1.875h3.75a.938.938,0,0,0,0-1.875Z" transform="translate(-64 -319.996)"/>
+      </g>
+    </g>
+    <g id="Group_24" data-name="Group 24" transform="translate(15.001 32.004)">
+      <g id="Group_23" data-name="Group 23" transform="translate(0 0)">
+        <path id="Path_14" data-name="Path 14" d="M270.433,34.891l-6.563-2.813a.957.957,0,0,0-.741,0l-6.563,2.813a.94.94,0,0,0-.566.863V39.5c0,5.158,1.907,8.174,7.034,11.127a.943.943,0,0,0,.934,0C269.094,47.685,271,44.67,271,39.5v-3.75A.939.939,0,0,0,270.433,34.891ZM269.126,39.5c0,4.33-1.433,6.713-5.625,9.226-4.193-2.518-5.625-4.9-5.625-9.226V36.373l5.625-2.411,5.625,2.411Z" transform="translate(-256 -32.004)"/>
+      </g>
+    </g>
+    <g id="Group_26" data-name="Group 26" transform="translate(18.752 37.63)">
+      <g id="Group_25" data-name="Group 25" transform="translate(0 0)">
+        <path id="Path_15" data-name="Path 15" d="M327.16,128.219a.944.944,0,0,0-1.318.146l-2.948,3.686-1.166-1.744a.937.937,0,1,0-1.56,1.039l1.875,2.813a.945.945,0,0,0,.741.418h.039a.938.938,0,0,0,.733-.353l3.75-4.688A.938.938,0,0,0,327.16,128.219Z" transform="translate(-320.011 -128.016)"/>
+      </g>
+    </g>
+  </g>
+</svg>

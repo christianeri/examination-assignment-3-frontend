@@ -1,0 +1,37 @@
+footer {
+     height: 120px;
+     width: 100%;
+
+     /* position: fixed;
+     left: 0;
+     bottom: 0; */
+
+     background-color: var(--fixxo-grey-3);
+     border-top: 1px solid var(--fixxo-grey-2);
+}
+     footer .container {
+          width: 100%;
+          display: block;
+          text-align: center;
+     }
+          footer .container h6 {
+               color: var(--fixxo-grey-1);
+               padding-top: 1rem;
+          }
+               footer .container i {
+                    transition: 0.2s;
+               }
+                    footer .container a:hover i {
+                         color: var(--fixxo-theme);
+                         transform: scale(1.1);
+                    }
+.social-media-links {
+     display: flex;
+     justify-content: center;
+     gap: 0.5rem;
+     padding-top: 2rem;
+
+}
+.social-media-links i {
+     font-size: 1.8rem;
+}
