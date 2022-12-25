@@ -46,7 +46,8 @@ För godkänt krävs följande:
 
 
 		  POST endpoint:	 /add	    	till exempel: 
-		  					{"articleNumber": "12345", "name": "Test Product", "description": "", "category": "Product object",   				                		"price": 55, "rating": 1, "imageName": "", "tag": "test" }
+		  					{"articleNumber": "12345", "name": "Test Product", "description": "", 
+							"category": "Product object", "price": 55, "rating": 1, "imageName": "", "tag": "test" }
 				       	
 		  PUT endpoint:	 	/edit/${id}     till exempel: 
                                                     http://localhost:5000/api/inventoryitems/639e21fd38be540ef4efeb2c
