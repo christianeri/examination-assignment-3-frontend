@@ -1,5 +1,5 @@
 - Produktobjekt: benämning "product" i webbappen och "inventoryitem" i webbapiet.
-- Produktbilderna och bilderna i Hero section är länkade från Hans API https://win22-webapi.azurewebsites.net/.
+- Produktbilderna är länkade från Hans API https://win22-webapi.azurewebsites.net/.
 
 
 Tillförd funktionalitet:
