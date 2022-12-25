@@ -34,30 +34,30 @@ För godkänt krävs följande:
 
 	Ditt Web Api ska kunna hämta och spara och uppdatera och ta bort (CRUD) produkter från din NoSQL databas som ska vara en Mongo DB (atlas).
 
-		  MongoDB URI: mongodb+srv://christianeri:TYqAdlJICxOZb6md@cluster0.kysgncj.mongodb.net/win22?retryWrites=true&w=majority
+		MongoDB URI: mongodb+srv://christianeri:TYqAdlJICxOZb6md@cluster0.kysgncj.mongodb.net/win22?retryWrites=true&w=majority
 
-		  GET endpoints:	/					                            alla objekt i databasen
-				              /tag/${tag}/${amount?}			          objekt med angiven tag 
-			 	              /category/${category}/${amount?}	    objekt i angiven kategori
-				              /rated/${rating}			                objekt med angivet ratingvärde 
-				              /related/${category}/${articleNumber}	objekt i samma kategori som angiven produkt utom produkten med angivet artikelnummer 
-				              /items/${amount}			                angivet antal slumpmässigt utvalda produktobjekt
-				              /item/${articleNumber}			          objekt med angivet artikelnummer
+	  	GET endpoints:	      /					    	alla objekt i databasen
+				      /tag/${tag}/${amount?}			objekt med angiven tag 
+			 	      /category/${category}/${amount?}	    	objekt i angiven kategori
+				      /rated/${rating}			        objekt med angivet ratingvärde 
+				      /related/${category}/${articleNumber}	objekt i samma kategori som angiven produkt utom produkten med angivet artikelnummer 
+			      	      /items/${amount}			        angivet antal slumpmässigt utvalda produktobjekt
+				      /item/${articleNumber}			objekt med angivet artikelnummer
 
 
-		  POST endpoint:	 /add	                        till exempel: 
+		  POST endpoint:	 /add	    till exempel: 
                                                     {	"articleNumber": "12345",
-		  	        			                                "name": "Test Product",
-                       				                        "description": "",
-	        			                                      "category": "Product object",
-        				                                      "price": 55,
-	        			                                      "rating": 1,
-	        			                                      "imageName": "",
-        				                                      "tag": "test" }
+		  	        			"name": "Test Product",
+                       				        "description": "",
+	        			                "category": "Product object",
+        				                "price": 55,
+	        			                "rating": 1,
+	        			                "imageName": "",
+        				                "tag": "test" }
 				       	
-		  PUT endpoint:	 /edit/${id}                      till exempel: 
-                                                      http://localhost:5000/api/inventoryitems/639e21fd38be540ef4efeb2c
-																                      { "category": "test products" }
+		  PUT endpoint:	 	/edit/${id}     till exempel: 
+                                                    	http://localhost:5000/api/inventoryitems/639e21fd38be540ef4efeb2c
+							{ "category": "test products" }
 
 		  DELETE endpoint: /remove/${articleNumber}       till exempel: http://localhost:5000/api/inventoryitems/remove/84769
       
