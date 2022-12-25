@@ -1,20 +1,20 @@
-Produktobjekt: benämning "product" i webbappen och "inventoryitem" i webbapiet.
-Produktbilderna och bilderna i Hero section är länkade från Hans API https://win22-webapi.azurewebsites.net/.
+# Produktobjekt: benämning "product" i webbappen och "inventoryitem" i webbapiet.
+# Produktbilderna och bilderna i Hero section är länkade från Hans API https://win22-webapi.azurewebsites.net/.
 
 
 Tillförd funktionalitet:
 
-Antalet ratingstjärnor för varje produkt renderas i webbappen baserat på angivet ratingvärde i motsvarande produktobjekt i databasen.
-Hämtning av produktobjekt baserat på efterfrågat ratingvärde. 
-Vid hämtning av okategorieserat men bestämt antal produkter randomiseras vilka produktobjekt som hämtas.
-Related Products i Product Details view hämtar övriga produktobjekt ur databasen av samma kategori med aktuell produkt exkluderad (eftersom den annars skulle visas två gånger).
+# Antalet ratingstjärnor för varje produkt renderas i webbappen baserat på angivet ratingvärde i motsvarande produktobjekt i databasen.
+# Hämtning av produktobjekt baserat på efterfrågat ratingvärde. 
+# Vid hämtning av okategorieserat men bestämt antal produkter randomiseras vilka produktobjekt som hämtas.
+# Related Products i Product Details view hämtar övriga produktobjekt ur databasen av samma kategori med aktuell produkt exkluderad (eftersom den annars skulle visas två gånger).
 
 
 
 Kända buggar:
 
-Produktbilderna renderas inte i Chrome. Fungerar i Edge.
-Route med artikelnummer som params fungerar inte från Related Products på Produkt Details view. Fungerar från Home view. 
+# Produktbilderna renderas inte i Chrome. Fungerar i Edge.
+# Route med artikelnummer som params fungerar inte från Related Products på Produkt Details view. Fungerar från Home view. 
 
 
 
