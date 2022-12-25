@@ -1,4 +1,4 @@
-
+ 
 interface LocalProps {
      alertType:string
      title:string

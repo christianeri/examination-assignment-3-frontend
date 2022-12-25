@@ -75,15 +75,15 @@ const ContactForm:React.FC = () => {
 
 
   return (
-     <section className='contact-section br'>          
+     <section className='contact-section'>          
           {/* <Breadcrumb currentPage='Contact'/> */}
           <div className='container-flex'>
                <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10998.376637945414!2d77.61423294193482!3d12.938969174075833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae155228d8e435%3A0x5060149e7b0a19e5!2sFixxo%20-%20Apple%20Repair%20Experts!5e0!3m2!1ssv!2sse!4v1666808466835!5m2!1ssv!2sse" width="100%" height="100%" loading="lazy" allowFullScreen={false}/>          
-          </div>
+          </div> 
 
           <div className='container'>
                { submitted ? (<AlertNotification alertType="success" title="Thank you for your comments" text=""/>) : (<></>) }
-               { failedSubmit ? (<AlertNotification alertType="success" title="Thank you for your comments" text=""/>) : (<></>) }
+               { failedSubmit ? (<AlertNotification alertType="danger" title="Something went wrong" text=""/>) : (<></>) }
           </div>
 
           <div className='container'>               

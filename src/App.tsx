@@ -22,7 +22,7 @@ import NotFoundView from './views/NotFoundView';
 import ProductProvider from './contexts/ProductContext';
 import { ShoppingCartProvider } from './contexts/ShoppingCartContext';
 import UserProvider from './not-in-use/UserContext';
-import AdminView from './views/AdminView';
+import AdminView from './not-in-use/AdminView';
 
 
 function App() {
